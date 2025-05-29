@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingEnd="16dp">
+
+        <TextView
+            android:id="@+id/tv_nombre_completo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adalid Alanoca Ramirez"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_direccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. Las Lomas Nro. 234 Z. Huayna Potosi"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_edad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Sección de botones -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/bt_editar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editar"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/bt_eliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eliminar" />
+    </LinearLayout>
+</LinearLayout>

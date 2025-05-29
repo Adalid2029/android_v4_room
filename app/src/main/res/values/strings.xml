@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Sesion5Room</string>
+    <string name="et_nombre_completo">Nombre completo</string>
+    <string name="et_ingrese_su_direccion">Ingrese su dirección</string>
+    <string name="et_ingrese_su_edad">Ingrese su edad</string>
+    <string name="bt_adicionar_persona">Adicionar persona</string>
 </resources>
